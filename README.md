@@ -5,6 +5,9 @@
 [![Build Status][travis-build-shield]][travis-build]
 [![GitHub license][license-shield]](LICENSE.md)
 
+This is originally made by overkill32, but as it broke after HA update to 0.9x I've fixed it.
+Tested on 092.1, 092.2.
+
 > Automatically create Hass.io snapshots to remote server location using `SCP`.
 
 <hr>
@@ -30,7 +33,7 @@ _Note_ the filenames of the backup are given by their assigned slug.
 
 ## <a name='installation'></a>Installation
 
-1. Add the add-ons repository to your Hass.io instance: `https://github.com/overkill32/hassio-addons`.
+1. Add the add-ons repository to your Hass.io instance: `https://github.com/thestigh/hassio-addons`.
 1. Install the Remote Backup add-on.
 1. Configure the add-on with your SSH credentials and desired output directory
 (see configuration below).
